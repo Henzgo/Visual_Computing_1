@@ -1,0 +1,8 @@
+{
+  "name": "visual-computing-1",
+  "version": "1.0.0",
+  "builtin-baseline": "a1cae005c39be7b18ba319fced856b68d7276271",
+  "dependencies": [
+    "opencv4"
+  ]
+}
