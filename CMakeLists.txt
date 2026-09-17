@@ -21,3 +21,5 @@ endif()
 # TODO: Fügen Sie bei Bedarf Tests hinzu, und installieren Sie Ziele.
 find_package(OpenCV CONFIG REQUIRED)
 target_link_libraries(Visual_Computing_1 PRIVATE ${OpenCV_LIBS})
+
+target_compile_definitions(Visual_Computing_1 PRIVATE PROJECT_SOURCE_DIR="${CMAKE_SOURCE_DIR}")
